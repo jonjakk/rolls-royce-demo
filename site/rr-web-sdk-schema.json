@@ -1,0 +1,100 @@
+{
+  "records": [
+    {
+      "developerName": "configuratorStep",
+      "masterLabel": "Configurator Step",
+      "category": "Engagement",
+      "externalDataTranFields": [
+        { "developerName": "eventId", "dataType": "Text", "isDataRequired": true, "primaryIndexOrder": 1 },
+        { "developerName": "category", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "dateTime", "dataType": "DateTime", "isDataRequired": true },
+        { "developerName": "deviceId", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "eventType", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "sessionId", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "attributesStepName", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesStepCategory", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesSelectedValue", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesPreviousValue", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesModelId", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesModelName", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesConfigSessionId", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesStepIndex", "dataType": "Number", "isDataRequired": false },
+        { "developerName": "attributesPriceImpact", "dataType": "Number", "isDataRequired": false },
+        { "developerName": "attributesPageUrl", "dataType": "Text", "isDataRequired": false }
+      ]
+    },
+    {
+      "developerName": "configuratorSession",
+      "masterLabel": "Configurator Session",
+      "category": "Engagement",
+      "externalDataTranFields": [
+        { "developerName": "eventId", "dataType": "Text", "isDataRequired": true, "primaryIndexOrder": 1 },
+        { "developerName": "category", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "dateTime", "dataType": "DateTime", "isDataRequired": true },
+        { "developerName": "deviceId", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "eventType", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "sessionId", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "attributesModelId", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesModelName", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesTotalSteps", "dataType": "Number", "isDataRequired": false },
+        { "developerName": "attributesCompletedSteps", "dataType": "Number", "isDataRequired": false },
+        { "developerName": "attributesTotalTimeMs", "dataType": "Number", "isDataRequired": false },
+        { "developerName": "attributesAbandoned", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesFinalConfiguration", "dataType": "Text", "isDataRequired": false }
+      ]
+    },
+    {
+      "developerName": "scrollDepth",
+      "masterLabel": "Scroll Depth",
+      "category": "Engagement",
+      "externalDataTranFields": [
+        { "developerName": "eventId", "dataType": "Text", "isDataRequired": true, "primaryIndexOrder": 1 },
+        { "developerName": "category", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "dateTime", "dataType": "DateTime", "isDataRequired": true },
+        { "developerName": "deviceId", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "eventType", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "sessionId", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "attributesScrollPercent", "dataType": "Number", "isDataRequired": false },
+        { "developerName": "attributesPageSection", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesPageUrl", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesPageCategory", "dataType": "Text", "isDataRequired": false }
+      ]
+    },
+    {
+      "developerName": "clickTracking",
+      "masterLabel": "Click Tracking",
+      "category": "Engagement",
+      "externalDataTranFields": [
+        { "developerName": "eventId", "dataType": "Text", "isDataRequired": true, "primaryIndexOrder": 1 },
+        { "developerName": "category", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "dateTime", "dataType": "DateTime", "isDataRequired": true },
+        { "developerName": "deviceId", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "eventType", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "sessionId", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "attributesElementId", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesElementType", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesElementLabel", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesPageSection", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesPageUrl", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesPageCategory", "dataType": "Text", "isDataRequired": false }
+      ]
+    },
+    {
+      "developerName": "formInteraction",
+      "masterLabel": "Form Interaction",
+      "category": "Engagement",
+      "externalDataTranFields": [
+        { "developerName": "eventId", "dataType": "Text", "isDataRequired": true, "primaryIndexOrder": 1 },
+        { "developerName": "category", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "dateTime", "dataType": "DateTime", "isDataRequired": true },
+        { "developerName": "deviceId", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "eventType", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "sessionId", "dataType": "Text", "isDataRequired": true },
+        { "developerName": "attributesFormName", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesFormAction", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesFieldName", "dataType": "Text", "isDataRequired": false },
+        { "developerName": "attributesPageUrl", "dataType": "Text", "isDataRequired": false }
+      ]
+    }
+  ]
+}
