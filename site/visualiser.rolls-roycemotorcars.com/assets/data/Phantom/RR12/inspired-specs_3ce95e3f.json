@@ -1,0 +1,112 @@
+{
+  "RR12_SPEC03": {
+    "configuration": "L1U_SH,322,5AC,RSL,L1P,L2G,L1T,REW,RSF,L1Y,REE,460,4T6,4T7,5DF,6FR,REP,REN,RPE,RRS,Z02,Z0T,RAUW,LL1_UW,LL2_T7,LL3_UY,LLE,LM0_UW,LM8_TU,LM9_UW,LMA_UW,LMC_UW,LMD_UW,LMF_UW,LMH_UW,LMK_UW,LML_UW,LMP_UW,LMQ_T7,LMR_UW,LMS_UW,LMT_UW,LMU_T7,LMW_UW,LMX_UW,LMY_UW,LMZ_UW,L0E_UW,LAN_T7,LAP_T7,LAS_T7,LA0_UW,LA2_UW,L5A,Z9D,LCP,R9H,RUC,Z9C,WL33,LE1_L33,LE5_HU,RAR,L0C_DG,RL3_UW,RC3,REK,RS1,REA_R1",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR12_SPEC01": {
+    "configuration": "322,5AC,RSL,L1P,L2G,L1T,REW,RSF,L1Y,REE,460,4T6,4T7,5DF,6FR,REP,REN,RPE,RRS,Z02,Z0G,RAHU,LL1_HU,LL2_KD,LL3_R1,LLE,LM0_R1,LM8_TU,LM9_R1,LMA_HU,LMC_HU,LMD_HU,LMF_HU,LMH_HU,LMK_HU,LML_HU,LMP_HU,LMQ_KD,LMR_HU,LMS_HU,LMT_R1,LMU_KD,LMW_HU,LMX_HU,LMY_R1,LMZ_HU,L0E_KD,LAN_KD,LAP_KD,LAS_KD,LA0_HU,LA2_R1,L5A,Z9D,LCP,R9H,LVP,Z9C,WR9E,LE1_R9E,LE5_HU,RA1,RST,453,454,LAA_KD,RSF",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR12_SPEC02": {
+    "configuration": "L1U_G8,322,5AC,RSL,L1P,L2G,L1T,REW,RSF,L1Y,REE,460,4T6,4T7,5DF,6FR,REP,REN,RPE,RRS,Z02,Z0G,RAHU,LL1_HU,LL2_T7,LL3_R1,LLE,LM0_T7,LM8_TU,LM9_R4,LMA_HU,LMC_HU,LMD_HU,LMF_HU,LMH_T7,LMK_T7,LML_T7,LMP_T7,LMQ_HU,LMR_T7,LMS_HU,LMT_R1,LMU_HU,LMW_HU,LMX_HU,LMY_R1,LMZ_HU,L0E_T7,LAN_R1,LAP_R1,LAS_R1,LA0_HU,LA2_R1,L5A,LAM,LCP,R9H,LVG,Z9C,WKAM,LE1_KAM,LE5_T7,RAR,LAX_HU,L2A,RSF,RAP",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR12_SPEC04": {
+    "configuration": "322,5AC,RSL,L1P,L2G,L1T,REW,RSF,L1Y,REE,460,4T6,4T7,5DF,6FR,REP,REN,RPE,RRS,Z02,Z0T,RAVC,LL1_VC,LL2_R1,LL3_FW,LLE,LM0_R1,LM8_TU,LM9_R1,LMA_VC,LMC_VC,LMD_VC,LMF_VC,LMH_VC,LMK_VC,LML_VC,LMP_VC,LMQ_R1,LMR_R1,LMS_VC,LMT_R1,LMU_VC,LMW_VC,LMX_VC,LMY_R1,LMZ_R1,L0E_VC,LAN_FW,LAP_FW,LAS_FW,LA0_VC,LA2_HK,RAP,Z9D,LCP,R9E,RUG,Z9C,WR94,LE1_R94,LE5_VC,RAR,LAX_VC,L0C_DG,RC4,477,L7R_IS,L7Q,REK,RS1,REA_R1",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR12_SPEC05": {
+    "configuration": "L1U_SH,322,5AC,RSL,L1P,L2G,L1T,REW,RSF,L1Y,REE,460,4T6,4T7,5DF,6FR,REP,REN,RPE,RRS,Z02,Z0G,RAUZ,LL1_UZ,LL2_UY,LL3_FW,LLE,LM0_UZ,LM8_TU,LM9_R1,LMA_UZ,LMC_UZ,LMD_UZ,LMF_UZ,LMH_UZ,LMK_UY,LML_UY,LMP_UY,LMQ_UY,LMR_UY,LMS_UZ,LMT_UZ,LMU_UZ,LMW_UZ,LMX_UZ,LMY_UZ,LMZ_UZ,L0E_UZ,LAN_FW,LAP_FW,LAS_FW,LA0_UZ,LA2_UZ,RD2,LAM,Z9A,R9H,RUE,Z9C,WR98,LE1_R98,LE2_R9B,RAR,L2N,LWP,RC7,LCQ,RAP",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "SPECIFICATION": {
+    "configuration": "L2G,L1T,REW,322,5AC,RSL,5DF,6FR,REP,REN,RPE,RA1,L2G,Z02,LLE,4T7",
+    "importOnly": true,
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  }
+}
+

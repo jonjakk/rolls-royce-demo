@@ -1,0 +1,1 @@
+var i=Object.defineProperty;var r=(e,n)=>i(e,"name",{value:n,configurable:!0});function b(e,n,u){var a;return u||n&&((a=e==null?void 0:e[n])==null?void 0:a.subHeadline)||""}r(b,"getSgtTranslatedSubHeadline");export{b as g};

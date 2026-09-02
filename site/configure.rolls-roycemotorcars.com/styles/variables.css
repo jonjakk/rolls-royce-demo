@@ -1,0 +1,18 @@
+/* Global fallbacks and utility CSS variables. */
+
+:root {
+  --ui-header-height: 0px;
+  --ui-sales-footer-height: 0px;
+  --ui-footer-height: 0px;
+  --con-print-scale: 1.5;
+  --con-fullscreen-height: 100dvh;
+  --con-content-height: calc(100dvh - var(--header-height) - var(--ui-sales-footer-height) - var(--ui-footer-height));
+  --con-headerless-height: calc(100dvh - var(--ui-sales-footer-height) - var(--ui-footer-height));
+  --con-footerless-height: calc(100dvh - var(--header-height) - var(--js-naas-header-height-offset));
+  --con-full-sgt-height: auto;
+  --con-stage-width: calc(100vw - var(--ui-configure-stream-width));
+  --con-scroll-snap-horizontal: x mandatory;
+  --con-scroll-snap-vertical: y mandatory;
+  --con-align-start: flex-start;
+  --con-align-end: flex-end;
+}

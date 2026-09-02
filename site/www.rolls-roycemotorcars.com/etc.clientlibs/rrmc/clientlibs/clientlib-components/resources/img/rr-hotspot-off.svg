@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SOUND_OFF_ICON</title>
+    <defs>
+        <path d="M23,46 C35.7025492,46 46,35.7025492 46,23 C46,16.2938555 43.1299216,10.2580538 38.5510864,6.05391639 C34.4568488,2.29472069 28.9964048,0 23,0 C10.2974508,0 0,10.2974508 0,23 C0,35.7025492 10.2974508,46 23,46 Z" id="path-1"></path>
+        <path d="M8,0 L8,16 L0,8 L8,0 Z M6,4.829 L2.829,8 L6,11.172 L6,4.829 Z M14.8317615,5 L15.7928932,5.96113172 L13.754,8 L15.7928932,10.0388683 L14.8317615,11 L12.792,8.961 L10.7540249,11 L9.79289322,10.0388683 L11.831,8 L9.79289322,5.96113172 L10.7540249,5 L12.792,7.038 L14.8317615,5 Z" id="path-3"></path>
+    </defs>
+    <g id="SOUND_OFF_ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button-/-round-/-stroked-/-no-label-copy-2" transform="translate(1.000000, 1.000000)">
+            <g id="shape-/-radius-/-rounded">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval" stroke="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <g id="icon/arrow-right" transform="translate(13.000000, 15.000000)">
+                <rect id="container" x="0" y="0" width="16" height="16"></rect>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#010202" xlink:href="#path-3"></use>
+                <g id="Group" mask="url(#mask-4)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g id="colour/brand/black">
+                        <rect id="colour" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(9.792893, 5.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

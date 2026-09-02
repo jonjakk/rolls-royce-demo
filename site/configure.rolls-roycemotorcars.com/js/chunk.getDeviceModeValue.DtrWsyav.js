@@ -1,0 +1,1 @@
+var v=Object.defineProperty;var f=(r,i)=>v(r,"name",{value:i,configurable:!0});import"./index.1787754279.js";function o(r,i,u){if(r){if(i&&i in r)return r[i];if(u&&u in r)return r[u]}}f(o,"getDeviceModeValue");export{o as g};

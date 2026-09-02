@@ -1,0 +1,71 @@
+/* This file is auto-generated. Do not edit, please & thank you. */
+
+@layer variables {
+  :root {
+    --ui-accent-background-color: #281432;
+    --ui-accent-color: #6d30a7;
+    --ui-background-color: #fff;
+    --ui-background-color-alternate: #f8f8f8;
+    --ui-background-color-translucent: #ffffff40;
+    --ui-border-color: #ddd;
+    --ui-divider-color: #ddd;
+    --ui-link-color: #151515;
+    --ui-link-color-hover: #6d30a7;
+    --ui-primary-surface-color: #000;
+    --ui-print-highlight-background-color: #6d30a7;
+    --ui-print-highlight-foreground-color: #fff;
+    --ui-swatch-edit-border-color: #ddd;
+    --ui-swatch-edit-border-color-hover: #000;
+    --ui-swatch-edit-color: unset;
+    --ui-swatch-edit-empty-icon-color: #000;
+    --ui-text-color: #151515;
+    --ui-text-color-constant: #696969;
+    --ui-text-color-inverted: #fff;
+    --ui-text-color-muted: #696969;
+    --ui-text-color-muted-subtitle: #696969;
+    --ui-swatch-edit-active-backdrop-filter: none;
+    --ui-swatch-edit-empty-padding-hover-border-width: 2px;
+    --ui-swatch-edit-overlay-inset: 5px;
+  }
+
+  [subtheme="black-badge"] {
+    --ui-accent-background-color: #000;
+    --ui-accent-color: #ff6432;
+    --ui-background-color: #000;
+    --ui-background-color-alternate: #67677633;
+    --ui-background-color-translucent: #67677633;
+    --ui-border-color: #696969;
+    --ui-divider-color: #fff;
+    --ui-link-color: #fff;
+    --ui-link-color-hover: #ff6432;
+    --ui-primary-surface-color: #fff;
+    --ui-print-highlight-background-color: #000;
+    --ui-print-highlight-foreground-color: #fff;
+    --ui-separator-color: #696969;
+    --ui-swatch-edit-border-color: #696969;
+    --ui-swatch-edit-border-color-hover: #fff;
+    --ui-swatch-edit-color: #000;
+    --ui-swatch-edit-empty-icon-color: #fff;
+    --ui-text-color: #fff;
+    --ui-text-color-inverted: #151515;
+    --ui-text-color-muted: #fff;
+    --ui-text-color-muted-subtitle: #DDD;
+    --ui-configure-stream-content-display-mobile: block;
+
+    @media print {
+      --ui-accent-color: #ff6432;
+      --ui-background-color: #fff;
+      --ui-background-color-alternate: #f8f8f8;
+      --ui-background-color-translucent: #ffffff40;
+      --ui-border-color: #ddd;
+      --ui-divider-color: #ddd;
+      --ui-link-color: #151515;
+      --ui-link-color-hover: #ff6432;
+      --ui-primary-surface-color: #000;
+      --ui-text-color: #151515;
+      --ui-text-color-inverted: #fff;
+      --ui-text-color-muted: #696969;
+      --ui-text-color-muted-subtitle: #696969;
+    }
+  }
+}

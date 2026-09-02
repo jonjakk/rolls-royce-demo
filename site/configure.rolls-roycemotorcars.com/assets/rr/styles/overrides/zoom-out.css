@@ -1,0 +1,15 @@
+:root {
+  --zoom-level: 1;
+  --counter-zoom: calc(1 / var(--zoom-level));
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  :root {
+    --zoom-level: 0.65;
+    --counter-zoom: calc(1 / var(--zoom-level));
+  }
+
+  body {
+    zoom: var(--zoom-level);
+  }
+}

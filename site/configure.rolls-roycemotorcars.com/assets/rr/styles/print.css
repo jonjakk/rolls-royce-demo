@@ -1,0 +1,29 @@
+@layer print {
+  :root {
+    [data-print-variant="detailed"] {
+      --print-detailed-display: none; // TODO: Remove when actual rules are added
+    }
+
+    [data-print-variant="compact"] {
+      --print-accordion-border: 0;
+      --print-accordion-padding-bottom: 0;
+      --print-icon-button-container-padding-block: 0;
+      --print-icon-button-padding: 0;
+      --print-summary-salesgroup-item-padding-block: 0;
+      --print-summary-salesgroup-item-padding-inline: 0;
+      --print-summary-subgroup-padding-top: 0;
+      --print-summary-subgroup-gap: 4px;
+      --print-summary-options-min-height: 0;
+      --print-summary-salesgroup-item-background-odd: none;
+      --print-product-name-font-family: var(--font-family-sans-serif-regular);
+      --print-option-color-font-style: italic;
+      --print-option-description-color: currentColor;
+      --print-option-image-height: 40px;
+      --print-summary-content-gap: 20px;
+    }
+
+    [data-print-variant="short"] {
+      --print-short-display: none; // TODO: Remove when actual rules are added
+    }
+  }
+}

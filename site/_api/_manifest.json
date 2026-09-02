@@ -1,0 +1,282 @@
+[
+  {
+    "url": "https://www.rolls-roycemotorcars.com/en_GB/ownership/configurator.html",
+    "method": "GET",
+    "contentType": "text/html;charset=utf-8",
+    "file": "f61c5f87bbea.bin",
+    "size": 620377
+  },
+  {
+    "url": "https://www.rolls-roycemotorcars.com/libs/granite/csrf/token.json",
+    "method": "GET",
+    "contentType": "application/json;charset=iso-8859-1",
+    "file": "70c084dbe07f.json",
+    "size": 2
+  },
+  {
+    "url": "https://www.bmw.com/epaas/prod/dataversion/rolls-roycemotorcars_com/2026-09-01T09:00:00Z.epaas.json",
+    "method": "GET",
+    "contentType": "application/json",
+    "file": "7d6f2f69623c.json",
+    "size": 214
+  },
+  {
+    "url": "https://edge.api.brightcove.com/playback/v1/accounts/1634657725001/videos/6371831557112",
+    "method": "GET",
+    "contentType": "application/json; charset=UTF-8",
+    "file": "5e76a873f906.json",
+    "size": 10493
+  },
+  {
+    "url": "https://www.bmw.com/epaas/prod/consentcontroller/rolls-roycemotorcars_com/v94x32x694x12x10x35x24x43x33x55x5x3336x5x0.epaas.json",
+    "method": "GET",
+    "contentType": "application/json",
+    "file": "1768cc32b458.json",
+    "size": 77807
+  },
+  {
+    "url": "https://edge.api.brightcove.com/playback/v1/accounts/1634657725001/videos/6362717517112",
+    "method": "GET",
+    "contentType": "application/json; charset=UTF-8",
+    "file": "c3c8d44eaccd.json",
+    "size": 10479
+  },
+  {
+    "url": "https://edge.api.brightcove.com/playback/v1/accounts/1634657725001/videos/6371886041112",
+    "method": "GET",
+    "contentType": "application/json; charset=UTF-8",
+    "file": "5f5f7d32ea54.json",
+    "size": 10581
+  },
+  {
+    "url": "https://edge.api.brightcove.com/playback/v1/accounts/1634657725001/videos/6362795047112",
+    "method": "GET",
+    "contentType": "application/json; charset=UTF-8",
+    "file": "79f731313d53.json",
+    "size": 10558
+  },
+  {
+    "url": "https://edge.api.brightcove.com/playback/v1/accounts/1634657725001/videos/6352036781112",
+    "method": "GET",
+    "contentType": "application/json; charset=UTF-8",
+    "file": "106d865c632a.json",
+    "size": 6628
+  },
+  {
+    "url": "https://edge.api.brightcove.com/playback/v1/accounts/1634657725001/videos/6395428320112",
+    "method": "GET",
+    "contentType": "application/json; charset=UTF-8",
+    "file": "42cf20b50711.json",
+    "size": 6590
+  },
+  {
+    "url": "https://edge.api.brightcove.com/playback/v1/accounts/1634657725001/videos/6395429722112",
+    "method": "GET",
+    "contentType": "application/json; charset=UTF-8",
+    "file": "eb6a6c59d14f.json",
+    "size": 6573
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/13da2d28-8e08-46e4-9c33-4f5c45628046/10s/master.m3u8?fastly_token=NmE5NmU5YmVfNjQ0ZDZlNzIwZTUzOTBiZDk4MzU0ZmI2NTBjNDExZmE0YmRhNDQwMTdjNmQ4Zjg3NWMzZWUxMzRhM2FhMzA4Mw%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "c51d79cfe158.bin",
+    "size": 4861
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/78fe84ff-5b96-4c72-a366-2ba5eca02a33/10s/master.m3u8?fastly_token=NmE5NmU5YmJfYjg4MmMzNmZjMTcwNTQ1ZDJkZDI2MzcwMWYxYmJlNWY3ZWJlODRmOTYyZDIyZGNiOTM0MTkyM2NlMmZlMTg4Zg%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "66b0319633e7.bin",
+    "size": 4861
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/557ab3cc-010d-4e59-9e4b-49b59938f93d/10s/master.m3u8?fastly_token=NmE5NmU5YmRfOTFkMzk3NWRhMWJlMDYwMTY5Zjc0MDg5OGQxYmZiZTZjNzg1MDQ3ZDMwZmFlYThiYWE2NjY5ODg1ZDI3MTBmNQ%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "3444de1a3429.bin",
+    "size": 3897
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/d92c844b-2268-46b8-b44d-d3e0f9ef2ab7/10s/master.m3u8?fastly_token=NmE5NmU5ZGFfNWNmNmM5ZDk2OTEyNjZmOTVmOGZiOTFhMmU1NTYyNzUyODNkMTAyM2UxNjZjYTEwZjQ0YTVhNzBjZGJkNzVmOQ%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "b67e6d78fa86.bin",
+    "size": 3897
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/1e6bdb36-8e0f-40e6-a14e-f2eef6fc0b6a/10s/master.m3u8?fastly_token=NmE5NmU5YmVfYjlkMmNlZTdmZTIwNjgwMTRjMWM3NTNmOGJlMTE0M2MyYjAwN2M4NjEwYTRhOTg2MmUyMDdhOTNkMDE5MGRmNg%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "a45cfc5f5ca7.bin",
+    "size": 1577
+  },
+  {
+    "url": "https://assets.adobedtm.com/717b2dc27cb7/babdcc2f0008/4f7c9385e2a5/RCac30978a5d3e40fda0d03c60a84ff1e5-code.min.js",
+    "method": "GET",
+    "contentType": "application/x-javascript",
+    "file": "1d7dbd431b77.bin",
+    "size": 1870
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/13da2d28-8e08-46e4-9c33-4f5c45628046/b1d408bf-452f-457d-a3ad-dd1af27bf331/10s/rendition.m3u8?fastly_token=NmE5NmRlZWNfNjUyOWEwMWNiOWJjMDZhZjlhNTVhNjdlNTY4ZTE4YmVhYmU2MDg1MjgzNDc2YTRmZGI4ODQ5OWU5ZjQ5YmEyNQ%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "dacf72ccf832.bin",
+    "size": 636
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/47ed38db-c450-445a-823f-cc24c59072b0/10s/master.m3u8?fastly_token=NmE5NmU5YmRfMDYwMzA2ZjQ1ZjBiMDI5ZWI3ZjNmYWMxMzZmMjJmMWI3NWZmM2EwNGE3MGYyOGVlYTYxOTFmZjgzZTg1NTc2OQ%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "20a159518488.bin",
+    "size": 2040
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/1e6bdb36-8e0f-40e6-a14e-f2eef6fc0b6a/2d14a09e-4440-4925-a60c-846d55c8d5f8/10s/rendition.m3u8?fastly_token=NmE5NmRlZWNfYjMwZmQwMGM1ZDlhY2ExNjRhZmJiZWE4NzljYWI2NGY0YmY2OGUyYzk3MDYxYWY0OGUwMjEwZjgwNDVlYzZkOQ%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "fd0cd47c69bb.bin",
+    "size": 636
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/84bb9bb2-a320-4fe7-9dd0-1217b40d5cd3/10s/master.m3u8?fastly_token=NmE5NmU5YmRfOTM2NTVmYjU5NWVhYzdjOWQyNDFlOTQ4ZTZlYmE5ZDk3NzRmNDU4NDQ0ZDNmZTUyMzE1MjJlZjU0NjI1YWQzZQ%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "febe4c061e8a.bin",
+    "size": 1577
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/557ab3cc-010d-4e59-9e4b-49b59938f93d/c90bacb5-527b-4cb2-a7a7-e4d1bd2b0b30/10s/rendition.m3u8?fastly_token=NmE5NmRlZWJfZjliNzRkZGQzNTUwNzQ2YjdiZTQ2NzQ0ZmJjYmJlOWUzNzA2ZjY1MTY2ODY5MTJhMjY0ODUxNmJhZjkyNDY1Ng%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "fc43a2d6e0ec.bin",
+    "size": 636
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/78fe84ff-5b96-4c72-a366-2ba5eca02a33/1619de54-39ae-41bd-a640-fade46842217/10s/rendition.m3u8?fastly_token=NmE5NmRlZTlfYTM5ZDNhYjUyZmE5MDk1N2VkMzg0MjdkMjc5ZWVkMmM2OTA2ZjI3ODEyM2FjMDcyNTJhZjVkMjcyNWE5Nzc4MQ%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "bfabaf95c302.bin",
+    "size": 636
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/d92c844b-2268-46b8-b44d-d3e0f9ef2ab7/58a0c6a6-0d85-4e81-a98f-22641eabba20/10s/rendition.m3u8?fastly_token=NmE5NmRmMDhfYzEyMmYyOTg1ZTI0YjNkMzRjNWQ0YWI5ZDUyOGVjMWNkMjA2OWFjZTU1OWM1NjhmYmY1N2FlMzJhN2Y5NjZkZQ%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "a8ae74971592.bin",
+    "size": 1685
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/13da2d28-8e08-46e4-9c33-4f5c45628046/ea705a04-791c-4e5f-b796-8971629775cb/10s/rendition.m3u8?fastly_token=NmE5NmRlZWNfMjMzZGViMzkzMzI0ZDM1MTFhODE4Y2VjYTU3YjkzYWNkMmU5MzU3MTlkYzVkMjA4Y2NmOTcxMDgzMjk3NzMyOQ%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "b71792382be2.bin",
+    "size": 636
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/78fe84ff-5b96-4c72-a366-2ba5eca02a33/038f1e61-b674-40d6-8b39-76e55dfa2881/10s/rendition.m3u8?fastly_token=NmE5NmRlZTlfNWU4N2Q2MmJmNzcyNDdiNDJmNTc4MDBmZGMxMzYyYzY2MWFhNTFhMGUzYzVjOTU4YTg0MmUxYzMxYjI4NDNlNQ%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "aa03e97d5ff2.bin",
+    "size": 636
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/84bb9bb2-a320-4fe7-9dd0-1217b40d5cd3/bced3e4a-d47e-4545-989e-b48d4567bb72/10s/rendition.m3u8?fastly_token=NmE5NmRlZWJfZTFhMTY2ZWU5NDA3ODcyZGQ3Y2E3ZTlkOTIwY2I3YWRkNzcxZGE5MzRmNjdkMTA1MDg1Y2E5YjI0MGQwYWI5OA%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "b35d7d7b4494.bin",
+    "size": 636
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/47ed38db-c450-445a-823f-cc24c59072b0/76797d5e-2a09-4269-9801-5daa8070376c/10s/rendition.m3u8?fastly_token=NmE5NmRlZWJfYTQyOGJkMGJjY2FjNjRjOTA1MjgxMTQ2NmQ0NTcyYjVkNzk0NmMxMGIyNjI4MjUxNDNkMjdhNWZiYTZkZWMxYg%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "ae4f3f0d0150.bin",
+    "size": 636
+  },
+  {
+    "url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1634657725001/47ed38db-c450-445a-823f-cc24c59072b0/8b620e0f-4bb1-4cc3-b622-e54ce248941f/10s/rendition.m3u8?fastly_token=NmE5NmRlZWJfM2IzNGNmMjc2OGNmYzExOTIxMTM0OTczNTlhMTYxZTUyMzhjMDU2ODhiYTZlZTRhN2U4MTM2MTYzNDMwMTNiMw%3D%3D",
+    "method": "GET",
+    "contentType": "application/x-mpegURL",
+    "file": "e6324b485f8f.bin",
+    "size": 636
+  },
+  {
+    "url": "https://www.bmw.com/epaas/prod/consentdrawer/rolls-roycemotorcars_com/v94x32x694x12x10x35x24x43x33x55x5x3336x5x0-tv2006x2006x16/en_GB.epaas.json",
+    "method": "GET",
+    "contentType": "application/json",
+    "file": "6ebc23ca806c.json",
+    "size": 1846
+  },
+  {
+    "url": "https://assets.adobedtm.com/717b2dc27cb7/babdcc2f0008/4f7c9385e2a5/RC057b06231e8f4635813cf50341aca283-code.min.js",
+    "method": "GET",
+    "contentType": "application/x-javascript",
+    "file": "94e23bddb57e.bin",
+    "size": 1353
+  },
+  {
+    "url": "https://www.bmw.com/epaas/onlineaudit/config/2026-09-01T08:40:00Z.epaas.json",
+    "method": "GET",
+    "contentType": "application/json",
+    "file": "5b655169cc3c.json",
+    "size": 5956
+  },
+  {
+    "url": "https://assets.adobedtm.com/717b2dc27cb7/babdcc2f0008/4f7c9385e2a5/RCca2c69d3c23e4586a56b440432d11968-code.min.js",
+    "method": "GET",
+    "contentType": "application/x-javascript",
+    "file": "40edc1798f99.bin",
+    "size": 1891
+  },
+  {
+    "url": "https://assets.adobedtm.com/717b2dc27cb7/babdcc2f0008/4f7c9385e2a5/RC6f1c72ec32d84965a612dccd05b884f7-code.min.js",
+    "method": "GET",
+    "contentType": "application/x-javascript",
+    "file": "753e8bd245b2.bin",
+    "size": 1941
+  },
+  {
+    "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=B52D1CFE5330949C0A490D45%40AdobeOrg&d_nsid=0&ts=1788252938823",
+    "method": "GET",
+    "contentType": "application/json;charset=utf-8",
+    "file": "350a43eaa55a.json",
+    "size": 214
+  },
+  {
+    "url": "https://bmwag.d3.sc.omtrdc.net/b/ss/bmwgroup.rollsroyce.global.all/1/JS-2.27.0-LGU4/s86800562887427",
+    "method": "POST",
+    "contentType": "image/gif;charset=utf-8",
+    "file": "943cf40a51a8.bin",
+    "size": 43
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=643201&time=1788252939553&url=https%3A%2F%2Fwww.rolls-roycemotorcars.com%2Fen_GB%2Fownership%2Fconfigurator.html",
+    "method": "GET",
+    "contentType": "application/json",
+    "file": "01a9c2c643ad.json",
+    "size": 2
+  },
+  {
+    "url": "https://www.google.com/gmp/conversion/_dc_unique_id=583445589908746645;_dc_ptd=ChAI8O_Z1AYQlduou4ePl_tAEh8AF1PeK8-977tW8g_q83oN9XvXwBbsmbCPsFfpFDVi;_dc_time=1788252940;dc_pre=CLnzj6qBzZYDFcENZgkd_o8A1A;src=11326306;type=caree0;cat=sitew0;rcb=9;ord=314521349188;npa=1;auiddc=164472645.1788252940;uaa=x86;uab=64;uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe68s1v9190531046z8813071946za20gzb813071946zd813071946xea;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120591196;epver=2;dc_random=1788252939_1ZqvUGNPbubL7x6941Ewnays_AdBTSrgmg;~oref=https%3A%2F%2Fwww.rolls-roycemotorcars.com%2Fen_GB%2Fownership%2Fconfigurator.html?",
+    "method": "GET",
+    "contentType": "image/gif",
+    "file": "2855a686fb46.bin",
+    "size": 42
+  },
+  {
+    "url": "https://bmwag.d3.sc.omtrdc.net/b/ss/bmwgroup.rollsroyce.global.all/1/JS-2.27.0-LGU4/s836065833297",
+    "method": "POST",
+    "contentType": "image/gif;charset=utf-8",
+    "file": "8549598ec633.bin",
+    "size": 43
+  },
+  {
+    "url": "https://www.bmw.com/epaas/onlineaudit/producer/ingest-events",
+    "method": "POST",
+    "contentType": "application/json",
+    "file": "999c39573848.json",
+    "size": 0
+  }
+]

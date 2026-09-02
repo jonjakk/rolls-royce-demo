@@ -1,0 +1,5 @@
+/* Utility classes that need to be available globally. */
+
+.hidden {
+  display: none !important;
+}

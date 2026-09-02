@@ -1,0 +1,129 @@
+{
+  "RR31_SPEC11": {
+    "configuration": "319,322,4HC,4NM,4T7,5AC,5DF,477,LAV,Z9C,L1T,RKL,LCP,LE5_FW,YR9K,LE1_R9K,RC5,RP9,RA4,L2U,L1U_HQ,LAX_VC,RAP,RUX,RAVC,LL1_VC,LL2_VE,LL3_UW,LM9_UW,RA5,LMA_VC,LMB_VC,LMC_VE,LMD_VC,LMF_VE,LMK_VC,LM0_UW,LM1_VC,LML_VC,LMP_VC,LM2_VE,LM3_VE,LMT_UW,LMU_VE,LMS_VC,LMW_UW,LMX_UW,LMY_UW,LM8_TU,LAS_FW,LAP_FW,L0E_VE,LAN_FW,RBT,RRS,RAE,Z0G,460,4T6,RSF,RA1,6FR,1DF,LLE,RPE,RC7",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR31_SPEC12": {
+    "configuration": "319,322,4HC,4NM,4T7,5AC,5DF,477,LAV,Z9C,L1T,RKK,Z9A,WK9C,LE1_K9C,RC5,RP9,L1Z,L2U,L1U_VI,RL3_UW,RAP,RUX,RAUW,LL1_UW,LL2_HU,LL3_TY,LM9_UW,RA5,LMA_TY,LMB_TY,LMC_UW,LMD_TY,LMF_UW,LMK_UW,LM0_UW,LM1_UW,LML_HU,LMP_UW,LM2_TY,LM3_TY,LMT_UW,LMU_HU,LMS_UW,LMW_UW,LMX_UW,LMY_UW,LM8_TU,LAS_HU,LAP_HU,L0E_TY,LAN_HU,RBT,RRS,RAE,Z0G,460,4T6,RSF,454,453,RA1,6FR,1DF,LLE,RPE,RC7",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR31_SPEC13": {
+    "configuration": "319,322,4HC,4NM,4T7,5AC,5DF,477,LAV,Z9C,L1T,RKL,Z9A,WR9D,LE1_R9D,RC5,RP9,RA4,L2U,L1U_G8,LAX_FW,RAP,RUR,RHL,RC7,RAT7,LL1_T7,LL2_R1,LL3_FW,LM9_R1,RA5,LMA_T7,LMB_FW,LMC_R1,LMD_T7,LMF_R1,LMK_T7,LM0_R1,LM1_T7,LML_FW,LMP_T7,LM2_R1,LM3_R1,LMT_R1,LMU_T7,LMS_T7,LMW_R1,LMX_R1,LMY_R1,LM8_TP,LAS_T7,LAT_FW,LAP_FW,L0E_T7,LAN_T7,RBT,RRS,RAE,Z0G,4T6,RSF,460,453,454,RA1,6FR,1DF,LLE,RPE",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR31_SPEC14": {
+    "configuration": "319,322,4HC,4NM,4T7,5AC,5DF,Z9C,L1T,L2U,RKL,LCP,LE5_HU,WR71,LE1_R71,LEC,RC5,L1X,RL3_R5,RAP,LWE,RHL,RC7,477,RAR5,LL1_R5,LL2_HU,LL3_VE,LAV,LM9_R5,RA5,LMA_R5,LMB_VE,LMC_HU,LMD_R5,LMF_R5,LMK_R5,LM0_R5,LM1_R5,LML_R5,LMP_R5,LM2_HU,LM3_HU,LMT_R5,LMU_HU,LMS_R5,LMW_R5,LMX_R5,LMY_R5,LM8_R5,LAS_VE,LAP_VE,L0E_R5,LAN_VE,RBT,RRS,RAE,Z9B,RLB,453,RA1,6FR,1DF,LLE,RPE",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR31_SPEC15": {
+    "configuration": "1DF,319,322,453,477,4HC,4NM,4T7,5AC,5DF,6FR,L0E_VE,L1T,L2U,LAN_VE,LAP_VE,LAS_VE,LAV,LE1_R9G,LL1_HU,LL2_VE,LL3_R1,LLE,LM0_R1,LM1_HU,LM2_HU,LM3_HU,LM8_TU,LM9_R1,LMA_HU,LMB_VE,LMC_HU,LMD_HU,LMF_HU,LMK_HU,LML_VE,LMP_HU,LMS_HU,LMT_R1,LMU_VE,LMW_R1,LMX_R1,LMY_R1,LVC,RA1,RA4,RA5,RAE,RAP,RAHU,RBT,RC5,RC7,RKK,RLB,RRS,WR9G,Z9A,Z9B,Z9C,RPE",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR31_SPEC16": {
+    "configuration": "319,322,4HC,4NM,4T7,5AC,5DF,477,LAV,Z9C,L1T,RKL,Z9A,WR97,LE1_R97,RC5,L1Y,L2U,RL1_R1,RUE,RC7,RAVC,LL1_VC,LL2_R1,LL3_KE,LM9_R1,RA5,LMA_VC,LMB_R1,LMC_R1,LMD_VC,LMF_R1,LMK_R1,LM0_R1,LM1_R1,LML_KE,LMP_VC,LM2_R1,LM3_R1,LMT_R1,LMU_KE,LMS_VC,LMW_R1,LMX_R1,LMY_R1,LM8_TU,L5A,LAS_KE,LAH_KE,LAP_KE,L0E_KE,LAN_KE,RBT,RRS,RAE,Z9B,RLB,453,RA1,6FR,1DF,LLE,RPE,L1U_SH",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "SPECIFICATION": {
+    "configuration": "322,4NM,5AC,319,3AC,477,4HC,4T7,5DF,6FR,LLE,LAV,RA1,RA5,RAE,RC5",
+    "importOnly": true,
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+:root {
+  /* Fixed A4 landscape dimensions matching html2canvas CAPTURE_WIDTH_PX = 1920px */
+  --print-a4-page-width: 1920px;
+  --print-a4-page-height: 1358px; /* 1920 × 210/297 ≈ 1357.6 */
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+}

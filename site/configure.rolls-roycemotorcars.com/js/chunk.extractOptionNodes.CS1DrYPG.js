@@ -1,0 +1,1 @@
+var c=Object.defineProperty;var e=(n,o)=>c(n,"name",{value:o,configurable:!0});function f(n){let o=[];if(n.type!=="node"&&o.push(n),n.nodes&&n.nodes.length>0)for(const t of n.nodes)o=o.concat(f(t));return o}e(f,"extractOptionNodes");export{f as e};

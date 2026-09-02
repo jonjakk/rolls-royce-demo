@@ -1,0 +1,171 @@
+@layer variables, base, keyframes, utilities, print;
+
+@import "variables.css" layer(variables);
+@import "base.css" layer(base);
+@import "keyframes.css" layer(keyframes);
+@import "utilities.css" layer(utilities);
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+
+html.has-modal {
+  overflow: hidden;
+}
+
+html.inverted {
+  --ui-button-focus-outline-color: var(--ui-button-focus-outline-color-inverted);
+  --ui-text-color: var(--ui-text-color-inverted);
+  --ui-background-color: var(--ui-background-color-inverted);
+  --ui-text-color-muted: var(--ui-text-color-muted-inverted);
+  --ui-sgt-background-color: var(--ui-sgt-background-color-inverted);
+  --ui-translucent-background-color: var(--ui-translucent-background-color-inverted);
+  --ui-sgt-backdrop: var(--ui-sgt-backdrop-inverted);
+  --ui-sg-category-wrapper-gradient-from: var(--ui-sg-category-wrapper-gradient-from-inverted);
+  --ui-sg-category-wrapper-gradient-to: var(--ui-sg-category-wrapper-gradient-to-inverted);
+  --ui-island-navigation-border-color: var(--ui-island-navigation-border-color-inverted);
+  --ui-primary-surface-color: var(--ui-primary-color-inverted);
+  --ui-primary-surface-text-color: var(--ui-primary-color);
+  --ui-secondary-surface-color: var(--ui-secondary-color-inverted);
+  --ui-secondary-surface-text-color: var(--ui-secondary-color);
+  --ui-secondary-surface-hover-color: var(--ui-secondary-surface-hover-color-inverted);
+  --ui-secondary-surface-focus-outline-color: var(--ui-secondary-surface-focus-outline-color-inverted);
+  --ui-full-screen-menu-button-background: var(--ui-full-screen-menu-button-background-inverted);
+  --ui-divider-color: var(--ui-divider-color-inverted);
+}
+
+body {
+  scrollbar-gutter: stable;
+  overscroll-behavior-y: none;
+  font-family: var(--font-family-sans-serif-regular), Arial, Verdana, Tahoma, "Trebuchet MS", Roboto, Noto, -apple-system, sans-serif;
+  color: var(--ui-text-color);
+}
+
+@media print {
+  /* Elements that need to be hidden on print */
+  iframe,
+  #idz_btn,
+  .hide-on-print,
+  .fbmwc-chat-wrapper,
+  .usabilla_live_button_container {
+    display: none !important;
+  }
+}
+
+#initialLoadingLogoContainer {
+  position: fixed;
+  z-index: 100000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  background: #fff;
+}
+
+.initial-loading-image {
+  width: 80px;
+  height: 80px;
+
+  /* default is old BMW spinner for all themes without a specific one */
+  background: center center no-repeat url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyINCiAgICAgd2lkdGg9IjMwMC4wMDAwMDBwdCIgaGVpZ2h0PSIzMDAuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAzMDAuMDAwMDAwIDMwMC4wMDAwMDAiDQogICAgIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiPg0KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLDI5OS4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiDQogICAgICAgZmlsbD0iIzFjNjlkNCIgc3Ryb2tlPSJub25lIj4NCiAgICAgICAgPHBhdGggZD0iTTEzMzUgMjk2MyBjLTI0OSAtMzIgLTQ3NSAtMTE3IC02ODAgLTI1NyAtMTA4IC03MyAtMjc5IC0yNDEgLTM1Ng0KLTM1MSAtMTY1IC0yMzMgLTI2NCAtNTIxIC0yNzEgLTc5MCBsLTMgLTkwIDM1IC0zIGMxOSAtMiA4NiAtMSAxNDggMyBsMTEyIDcNCjAgNTYgYzAgNzUgMjIgMjA5IDUwIDMwMSA2OSAyMzIgMjIzIDQ1MiA0MjMgNjAyIDE1NSAxMTcgMzg2IDIwOSA1NjUgMjI0IDEyNA0KMTEgMTEyIC02IDExMiAxNjAgbDAgMTQ1IC01MiAtMSBjLTI5IC0xIC02NiAtNCAtODMgLTZ6Ii8+DQogICAgICAgIDxwYXRoIGQ9Ik0yNzYzIDE1MjMgbC04MyAtNCAwIC02MyBjMCAtMzUgLTcgLTEwMiAtMTUgLTE0OSAtODggLTUwMyAtNDY4DQotODg1IC05NjUgLTk3MSAtNTEgLTkgLTExMyAtMTYgLTEzOCAtMTYgbC00NCAwIDcgLTE0NyBjNCAtODIgOCAtMTQ5IDkgLTE1MA0KMSAtMSA0OSAzIDEwNyA4IDYxMyA1MyAxMTM3IDUwMiAxMjg5IDExMDMgMjkgMTEzIDU4IDM1MSA0NyAzODEgLTcgMTYgLTEyIDE2DQotMjE0IDh6Ii8+DQogICAgPC9nPg0KPC9zdmc+");
+  background-size: contain;
+
+  animation: spin 1s linear infinite;
+}
+
+.loading-image-bmw {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjEwMCUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEyIDBMMTIgNEMxNi40MTgzIDQgMjAgNy41ODE3MiAyMCAxMkwyNCAxMkMyNCAxMS45OTgyIDI0IDExLjk5NjMgMjQgMTEuOTk0NEMyMy45OTcgNS4zNjk2MSAxOC42MjU3IDAgMTIgMFoiIGZpbGw9IiMyNjI2MjYiLz4KICA8cGF0aCBkPSJNMCAxMi4wMDc4QzAuMDA0MjE1IDE4LjYzMTYgNS4zNzUxOCAyNCAxMiAyNEwxMiAyMEM3LjU4MTcyIDIwIDMuOTk5OTkgMTYuNDE4MiAzLjk5OTk5IDEyTDAgMTJDMCAxMi4wMDI1IDAgMTIuMDA1MyAwIDEyLjAwNzhaIiBmaWxsPSIjMjYyNjI2Ii8+Cjwvc3ZnPgo=");
+
+  @media (max-width: 1920px) {
+    width: 64px;
+    height: 64px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.loading-image-mini {
+  width: 120px;
+  height: 120px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEyIiBoZWlnaHQ9IjExMiIgdmlld0JveD0iMCAwIDExMiAxMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJzcGlubmVyIj4KPGNpcmNsZSBpZD0iRWxsaXBzZSA4NiIgY3g9IjU2IiBjeT0iNTYiIHI9IjU1IiBzdHJva2U9IiNFMEUwRTAiIHN0cm9rZS13aWR0aD0iMiIvPgo8cGF0aCBpZD0iRWxsaXBzZSA4NyIgZD0iTTU2IDFDNzMuMDc5NCAxIDg4LjM0MDUgOC43ODQ5NyA5OC40Mjg0IDIxIiBzdHJva2U9IiMwMTdFQTQiIHN0cm9rZS13aWR0aD0iMiIvPgo8L2c+Cjwvc3ZnPgo=");
+
+  @media (max-width: 768px) {
+    width: 60px;
+    height: 60px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTgiIGhlaWdodD0iNTgiIHZpZXdCb3g9IjAgMCA1OCA1OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9InNwaW5uZXIiPgo8Y2lyY2xlIGlkPSJFbGxpcHNlIDg2IiBjeD0iMjkiIGN5PSIyOSIgcj0iMjcuNSIgc3Ryb2tlPSIjRTBFMEUwIiBzdHJva2Utd2lkdGg9IjIiLz4KPHBhdGggaWQ9IkVsbGlwc2UgODciIGQ9Ik0yOSAxLjVDMzcuNTM5NyAxLjUgNDUuMTcwMiA1LjM5MjQ4IDUwLjIxNDIgMTEuNSIgc3Ryb2tlPSIjMDE3RUE0IiBzdHJva2Utd2lkdGg9IjIiLz4KPC9nPgo8L3N2Zz4K");
+  }
+}
+
+.naas-header,
+.naas-footer {
+  position: relative;
+  z-index: 1110;
+}
+
+/* Sticky Sidebar as a Service (SSBaaS) */
+:root {
+  --ui-ssbaas-bottom: 56px;
+  --ui-ssbaas-right: 48px;
+
+  /* Tablet */
+  @media (max-width: 1024px) {
+    --ui-ssbaas-bottom: 60%;
+    --ui-ssbaas-right: 12px;
+  }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    --ui-ssbaas-bottom: 60%;
+    --ui-ssbaas-right: 8px;
+  }
+}
+
+.naas-sticky-sidebar {
+  --ssbaas-client-override-bottom-position: var(--ui-ssbaas-bottom, 56px);
+  --ssbaas-client-override-right-position: var(--ui-ssbaas-right, 48px);
+
+  position: relative;
+  z-index: 1110;
+}
+
+/* NCAR-TODO: move this logic to a separate file which will get loaded conditionally for ncar */
+html[subtheme='ncar'] {
+  @media screen {
+    scrollbar-width: none;
+    scrollbar-gutter: stable;
+
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+      width: 0;
+      height: 0;
+      background: transparent;
+    }
+
+    body, *
+    {
+      scrollbar-width: none;
+      scrollbar-gutter: stable;
+
+      -ms-overflow-style: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+        width: 0;
+        height: 0;
+        background: transparent;
+      }
+    }
+  }
+}

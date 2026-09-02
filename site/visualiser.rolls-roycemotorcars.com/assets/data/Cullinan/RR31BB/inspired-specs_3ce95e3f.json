@@ -1,0 +1,115 @@
+{
+  "RR31BB_SPEC11": {
+    "configuration": "1DF,322,420,453,477,4HC,4NM,5AC,5DF,6FR,L0E_FW,L1T,L1U_ZI,L2U,L5K,LAN_FW,LAP_FW,LAS_R1,LAV,LCP,LE1_R29,LE5_X1_LXLM,LL1_X1_LXLM,LL2_R1,LL3_FW,LLE,LM0_R1,LM1_X1_LXLM,LM2_R1,LM3_R1,LM8_TU,LM9_R1,LMA_X1_LXLM,LMB_FW,LMC_R1,LMD_X1_LXLM,LMF_R1,LMK_X1_LXLM,LML_X1_LXLM,LMP_X1_LXLM,LMS_X1_LXLM,LMT_R1,LMU_R1,LMW_R1,LMX_R1,LMY_R1,RKM,RA1,RA5,RAE,RLB,RRS,RU9,YR29,Z1XX,Z9B,Z9G,RPE,LAG_R1",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR31BB_SPEC12": {
+    "configuration": "1DF,2BQ,322,453,477,4HC,4NM,5AC,5DF,6FR,L0E_HK,L1T,L1U_NN,L1Z,L2U,L4A,RC5,L2E,LAP_HK,LAS_HK,LAV,LAX_HK,LE1_R84,LL1_R1,LL2_HK,LLE,LM0_R1,LM1_R1,LM2_HK,LM3_HK,LM8_TU,LM9_R1,LMA_R1,LMB_R1,LMC_HK,LMD_R1,LMF_HK,LMK_R1,LML_HK,LMP_R1,LMS_R1,LMT_R1,LMU_HK,LMW_R1,LMX_R1,LMY_R1,RKM,RA1,RA5,RAE,RAR1,RLB,RRS,RU9,WR84,Z9A,Z9B,Z9G,RPE",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR31BB_SPEC13": {
+    "configuration": "1DF,322,453,454,460,477,4HC,4NM,4T6,5AC,5DF,6FR,L0E_KD,L1T,L2U,RC5,LAN_R1,LAP_R1,LAS_R1,LAV,LAX_VC,LE1_W24,LL1_VC,LL2_KD,LL3_R1,LLE,LM0_R1,LM1_VC,LM2_KD,LM3_KD,LM8_TU,LM9_R1,LMA_VC,LMB_R1,LMC_KD,LMD_VC,LMF_KD,LMK_VC,LML_VC,LMP_VC,LMS_VC,LMT_R1,LMU_KD,LMW_R1,LMX_R1,LMY_R1,RA1,RA5,RAE,RAVC,RKM,RRS,RSF,RU9,WW24,Z0G,Z9A,Z9G,RPE",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR31BB_SPEC14": {
+    "configuration": "1DF,322,453,454,460,477,4HC,4NM,4T6,5AC,5DF,6FR,L0E_ZH,L1T,L1X,L2U,RC5,LAH_ZH,LAN_ZH,LAP_ZH,LAS_ZH,LAT_ZH,LAV,LCE_ZH,LCP,LE1_R94,LE5_ZH,LL1_R1,LL2_ZH,LLE,LM0_R1,LM1_R1,LM2_R1,LM3_R1,LM8_TU,LM9_R1,LMA_R1,LMB_ZH,LMC_R1,LMD_R1,LMF_R1,LMK_R1,LML_ZH,LMP_R1,LMS_R1,LMT_R1,LMU_ZH,LMW_R1,LMX_R1,LMY_R1,RA1,RA5,RAE,RAR1,RKM,RRS,RSF,RU9,WR94,Z0G,Z9G,RPE",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR31BB_SPEC15": {
+    "configuration": "1DF,2BQ,322,453,477,4HC,4NM,5AC,5DF,6FR,L0E_KE,L1T,L1U_NA,L2U,L4A,RC5,LAN_KE,LAP_KE,LAS_KE,LAV,LE1_R9F,LL1_R1,LL2_KE,LL3_UW,LLE,LM0_R1,LM1_R1,LM2_R1,LM3_R1,LM8_TU,LM9_R1,LMA_R1,LMB_UW,LMC_UW,LMD_R1,LMF_UW,LMK_R1,LML_KE,LMP_R1,LMS_R1,LMT_R1,LMU_KE,LMW_R1,LMX_R1,LMY_R1,RA1,RA5,RAE,RAR1,RKM,RLB,RRS,RU9,YR9F,Z9A,Z9B,Z9G,RPE",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "RR31BB_SPEC16": {
+    "configuration": "1DF,322,420,453,477,4HC,4NM,5AC,5DF,6FR,L0E_HT,L1T,L1U_NN,L1Z,L2U,RC5,LAN_HT,LAP_HT,LAS_HT,LAV,LCE_HT,LCP,LE1_R32,LE5_HT,LL1_R1,LL2_HT,LLE,LM0_R1,LM1_R1,LM2_R1,LM3_R1,LM8_TU,LM9_R1,LMA_R1,LMB_HT,LMC_R1,LMD_R1,LMF_R1,LMK_R1,LML_R1,LMP_R1,LMS_R1,LMT_R1,LMU_HT,LMW_R1,LMX_R1,LMY_R1,RA1,RA5,RAE,RAR1,RKM,RLB,RRS,RU9,WR32,Z9B,Z9G,RPE,LAG_R1,RBL",
+    "images": [],
+    "cams": [
+      {
+        "perspectiveId": "cam_01",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_09",
+        "hotspotId": ""
+      },
+      {
+        "perspectiveId": "cam_02",
+        "hotspotId": "h_Wheels"
+      }
+    ]
+  },
+  "SPECIFICATION": {
+    "configuration": "322,4HC,4NM,5AC,477,5DF,6FR,LLE,LAV,RA1,RA5,RAE,RC5",
+    "importOnly": true,
+    "images": []
+  }
+}
