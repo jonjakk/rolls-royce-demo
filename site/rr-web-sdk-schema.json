@@ -5,22 +5,103 @@
       "masterLabel": "Configurator Step",
       "category": "Engagement",
       "externalDataTranFields": [
-        { "developerName": "eventId", "dataType": "Text", "isDataRequired": true, "primaryIndexOrder": 1 },
-        { "developerName": "category", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "dateTime", "dataType": "DateTime", "isDataRequired": true },
-        { "developerName": "deviceId", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "eventType", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "sessionId", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "attributesStepName", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesStepCategory", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesSelectedValue", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesPreviousValue", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesModelId", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesModelName", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesConfigSessionId", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesStepIndex", "dataType": "Number", "isDataRequired": false },
-        { "developerName": "attributesPriceImpact", "dataType": "Number", "isDataRequired": false },
-        { "developerName": "attributesPageUrl", "dataType": "Text", "isDataRequired": false }
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "DateTime",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "attributesStepName",
+          "dataType": "Text",
+          "developerName": "attributesStepName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesStepCategory",
+          "dataType": "Text",
+          "developerName": "attributesStepCategory",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesSelectedValue",
+          "dataType": "Text",
+          "developerName": "attributesSelectedValue",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesPreviousValue",
+          "dataType": "Text",
+          "developerName": "attributesPreviousValue",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesModelId",
+          "dataType": "Text",
+          "developerName": "attributesModelId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesModelName",
+          "dataType": "Text",
+          "developerName": "attributesModelName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesConfigSessionId",
+          "dataType": "Text",
+          "developerName": "attributesConfigSessionId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesStepIndex",
+          "dataType": "Number",
+          "developerName": "attributesStepIndex",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesPriceImpact",
+          "dataType": "Number",
+          "developerName": "attributesPriceImpact",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesPageUrl",
+          "dataType": "Text",
+          "developerName": "attributesPageUrl",
+          "isDataRequired": false
+        }
       ]
     },
     {
@@ -28,19 +109,85 @@
       "masterLabel": "Configurator Session",
       "category": "Engagement",
       "externalDataTranFields": [
-        { "developerName": "eventId", "dataType": "Text", "isDataRequired": true, "primaryIndexOrder": 1 },
-        { "developerName": "category", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "dateTime", "dataType": "DateTime", "isDataRequired": true },
-        { "developerName": "deviceId", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "eventType", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "sessionId", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "attributesModelId", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesModelName", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesTotalSteps", "dataType": "Number", "isDataRequired": false },
-        { "developerName": "attributesCompletedSteps", "dataType": "Number", "isDataRequired": false },
-        { "developerName": "attributesTotalTimeMs", "dataType": "Number", "isDataRequired": false },
-        { "developerName": "attributesAbandoned", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesFinalConfiguration", "dataType": "Text", "isDataRequired": false }
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "DateTime",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "attributesModelId",
+          "dataType": "Text",
+          "developerName": "attributesModelId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesModelName",
+          "dataType": "Text",
+          "developerName": "attributesModelName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesTotalSteps",
+          "dataType": "Number",
+          "developerName": "attributesTotalSteps",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesCompletedSteps",
+          "dataType": "Number",
+          "developerName": "attributesCompletedSteps",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesTotalTimeMs",
+          "dataType": "Number",
+          "developerName": "attributesTotalTimeMs",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesAbandoned",
+          "dataType": "Text",
+          "developerName": "attributesAbandoned",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesFinalConfiguration",
+          "dataType": "Text",
+          "developerName": "attributesFinalConfiguration",
+          "isDataRequired": false
+        }
       ]
     },
     {
@@ -48,16 +195,67 @@
       "masterLabel": "Scroll Depth",
       "category": "Engagement",
       "externalDataTranFields": [
-        { "developerName": "eventId", "dataType": "Text", "isDataRequired": true, "primaryIndexOrder": 1 },
-        { "developerName": "category", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "dateTime", "dataType": "DateTime", "isDataRequired": true },
-        { "developerName": "deviceId", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "eventType", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "sessionId", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "attributesScrollPercent", "dataType": "Number", "isDataRequired": false },
-        { "developerName": "attributesPageSection", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesPageUrl", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesPageCategory", "dataType": "Text", "isDataRequired": false }
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "DateTime",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "attributesScrollPercent",
+          "dataType": "Number",
+          "developerName": "attributesScrollPercent",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesPageSection",
+          "dataType": "Text",
+          "developerName": "attributesPageSection",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesPageUrl",
+          "dataType": "Text",
+          "developerName": "attributesPageUrl",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesPageCategory",
+          "dataType": "Text",
+          "developerName": "attributesPageCategory",
+          "isDataRequired": false
+        }
       ]
     },
     {
@@ -65,18 +263,79 @@
       "masterLabel": "Click Tracking",
       "category": "Engagement",
       "externalDataTranFields": [
-        { "developerName": "eventId", "dataType": "Text", "isDataRequired": true, "primaryIndexOrder": 1 },
-        { "developerName": "category", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "dateTime", "dataType": "DateTime", "isDataRequired": true },
-        { "developerName": "deviceId", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "eventType", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "sessionId", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "attributesElementId", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesElementType", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesElementLabel", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesPageSection", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesPageUrl", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesPageCategory", "dataType": "Text", "isDataRequired": false }
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "DateTime",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "attributesElementId",
+          "dataType": "Text",
+          "developerName": "attributesElementId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesElementType",
+          "dataType": "Text",
+          "developerName": "attributesElementType",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesElementLabel",
+          "dataType": "Text",
+          "developerName": "attributesElementLabel",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesPageSection",
+          "dataType": "Text",
+          "developerName": "attributesPageSection",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesPageUrl",
+          "dataType": "Text",
+          "developerName": "attributesPageUrl",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesPageCategory",
+          "dataType": "Text",
+          "developerName": "attributesPageCategory",
+          "isDataRequired": false
+        }
       ]
     },
     {
@@ -84,16 +343,67 @@
       "masterLabel": "Form Interaction",
       "category": "Engagement",
       "externalDataTranFields": [
-        { "developerName": "eventId", "dataType": "Text", "isDataRequired": true, "primaryIndexOrder": 1 },
-        { "developerName": "category", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "dateTime", "dataType": "DateTime", "isDataRequired": true },
-        { "developerName": "deviceId", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "eventType", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "sessionId", "dataType": "Text", "isDataRequired": true },
-        { "developerName": "attributesFormName", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesFormAction", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesFieldName", "dataType": "Text", "isDataRequired": false },
-        { "developerName": "attributesPageUrl", "dataType": "Text", "isDataRequired": false }
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "DateTime",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "attributesFormName",
+          "dataType": "Text",
+          "developerName": "attributesFormName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesFormAction",
+          "dataType": "Text",
+          "developerName": "attributesFormAction",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesFieldName",
+          "dataType": "Text",
+          "developerName": "attributesFieldName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "attributesPageUrl",
+          "dataType": "Text",
+          "developerName": "attributesPageUrl",
+          "isDataRequired": false
+        }
       ]
     }
   ]
