@@ -1,6 +1,28 @@
 // Rolls-Royce Motor Cars Demo - Data 360 Web SDK Sitemap
 // Tracks: page views, clicks, scroll depth, configurator steps, form interactions, dwell time
 
+// Block Adobe/BMW scripts that cause redirect away from demo site
+(function() {
+  var blocked = ['assets.adobedtm.com', 'p15r.js', 'epaas.js', 'evergage.com', 'bmw.com/p15r'];
+  var origCreate = document.createElement;
+  document.createElement = function(tag) {
+    var el = origCreate.call(document, tag);
+    if (tag === 'script') {
+      var origSrc = Object.getOwnPropertyDescriptor(HTMLScriptElement.prototype, 'src');
+      Object.defineProperty(el, 'src', {
+        set: function(v) {
+          if (v && blocked.some(function(b) { return v.indexOf(b) !== -1; })) {
+            return;
+          }
+          origSrc.set.call(this, v);
+        },
+        get: function() { return origSrc.get.call(this); }
+      });
+    }
+    return el;
+  };
+})();
+
 (function() {
   'use strict';
 
@@ -125,6 +147,15 @@
         }
       }
     }).then(function() {
+      // Fix: explicit updateConsents required — init() consent not recognized by CDP beacon
+      if (SalesforceInteractions.ConsentPurpose && SalesforceInteractions.ConsentStatus) {
+        SalesforceInteractions.updateConsents([{
+          purpose: SalesforceInteractions.ConsentPurpose.Tracking,
+          provider: 'Demo',
+          status: SalesforceInteractions.ConsentStatus.OptIn
+        }]);
+      }
+
       SalesforceInteractions.initSitemap({
         global: {
           onActionEvent: function(actionEvent) {
