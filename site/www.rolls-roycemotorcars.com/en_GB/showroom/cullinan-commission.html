@@ -708,6 +708,9 @@ position: relative;
 <rr-model-selection id="model-selection" variant-id="RR31" force-model-variant="true" is-minimized="true" minimized-button-theme="secondary" ng-version="22.0.7"></rr-model-selection>
 <script src="/rolls-royce-demo/visualiser.rolls-roycemotorcars.com/web-component/model-selection/runtime.js" type="module"></script>
 <script src="/rolls-royce-demo/visualiser.rolls-roycemotorcars.com/web-component/model-selection/polyfills.js" type="module"></script>
+<script>
+(function(){var origFetch=window.fetch;window.fetch=function(url,opts){if(typeof url==="string"&&url.includes("/api.visualiser.rolls-roycemotorcars.com/")){var u=new URL(url,location.origin);if(!u.pathname.endsWith(".json")&&!u.pathname.includes(".")){u.pathname+=".json";url=u.toString()}}return origFetch.call(this,url,opts)}})();
+</script>
 <script src="/rolls-royce-demo/visualiser.rolls-roycemotorcars.com/web-component/model-selection/scripts.js" defer=""></script>
 <script src="/rolls-royce-demo/visualiser.rolls-roycemotorcars.com/web-component/model-selection/main.js" type="module"></script>
 
