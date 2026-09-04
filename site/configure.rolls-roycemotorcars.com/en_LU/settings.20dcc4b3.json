@@ -67,7 +67,7 @@
       "consentCategories": [
         "analytics"
       ],
-      "scriptSrc": "/_proxy/www.bmw.com/etc/clientlibs/wcmp/consentcontroller.fallback/epaas.js",
+      "scriptSrc": "/rolls-royce-demo/www.bmw.com/etc/clientlibs/wcmp/consentcontroller.fallback/epaas.js",
       "config": {
         "tenant": "configure_rolls-roycemotorcars_com",
         "locale": "en_LU",
@@ -4540,8 +4540,8 @@
         "faasApiUrl": "{{marketURL}}/vco/vco.js"
       },
       "settingsDigitalBrochure": {
-        "baseUrl": "/_proxy/api.visualiser.rolls-roycemotorcars.com",
-        "urlDigitalBrochure": "/_proxy/brochure.rolls-roycemotorcars.com",
+        "baseUrl": "/rolls-royce-demo/api.visualiser.rolls-roycemotorcars.com",
+        "urlDigitalBrochure": "/rolls-royce-demo/brochure.rolls-roycemotorcars.com",
         "language": "en",
         "country": "lu",
         "brand": "rr",
@@ -4551,8 +4551,8 @@
         }
       },
       "settingsDigitalBrochureReverseProxy": {
-        "baseUrl": "/_proxy/api.visualiser.rolls-roycemotorcars.com",
-        "urlDigitalBrochure": "/_proxy/brochure.rolls-roycemotorcars.com",
+        "baseUrl": "/rolls-royce-demo/api.visualiser.rolls-roycemotorcars.com",
+        "urlDigitalBrochure": "/rolls-royce-demo/brochure.rolls-roycemotorcars.com",
         "language": "en",
         "country": "lu",
         "brand": "rr",
@@ -5359,7 +5359,7 @@
       },
       "DIGITAL_BROCHURE_LINK": {
         "type": "link",
-        "url": "/_proxy/brochure.rolls-roycemotorcars.com/{language}/{configId}",
+        "url": "/rolls-royce-demo/brochure.rolls-roycemotorcars.com/{language}/{configId}",
         "newTab": true,
         "icon": "chevron-right",
         "required": [
