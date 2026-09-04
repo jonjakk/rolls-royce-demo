@@ -709,7 +709,7 @@ position: relative;
 <script src="/rolls-royce-demo/visualiser.rolls-roycemotorcars.com/web-component/model-selection/runtime.js" type="module"></script>
 <script src="/rolls-royce-demo/visualiser.rolls-roycemotorcars.com/web-component/model-selection/polyfills.js" type="module"></script>
 <script>
-(function(){var origFetch=window.fetch;window.fetch=function(url,opts){if(typeof url==="string"&&url.includes("/api.visualiser.rolls-roycemotorcars.com/")){var u=new URL(url,location.origin);if(!u.pathname.endsWith(".json")&&!u.pathname.includes(".")){u.pathname+=".json";url=u.toString()}}return origFetch.call(this,url,opts)}})();
+(function(){var origFetch=window.fetch;window.fetch=function(url,opts){if(typeof url==="string"&&url.includes("/api.visualiser.rolls-roycemotorcars.com/")){var u=new URL(url,location.origin);var lastSeg=u.pathname.split("/").pop();if(lastSeg&&!lastSeg.includes(".")){u.pathname+=".json";url=u.toString()}}return origFetch.call(this,url,opts)}})();
 </script>
 <script src="/rolls-royce-demo/visualiser.rolls-roycemotorcars.com/web-component/model-selection/scripts.js" defer=""></script>
 <script src="/rolls-royce-demo/visualiser.rolls-roycemotorcars.com/web-component/model-selection/main.js" type="module"></script>
