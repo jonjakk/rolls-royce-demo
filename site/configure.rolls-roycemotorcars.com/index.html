@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  <meta name="description" content="Configure your perfect Rolls Royce">
+
+  <title id="pageTitle">Configure your perfect Rolls Royce</title>
+
+  <!-- TRON tracking removed for demo -->
+
+  <script>
+    if (window.navigator && navigator.serviceWorker) {
+      navigator.serviceWorker.getRegistrations()
+        .then(function (registrations) {
+          for (let registration of registrations) {
+            registration.unregister();
+          }
+        });
+    }
+  </script>
+
+  <!-- See https://goo.gl/qRE0vM -->
+  <meta name="theme-color" content="#3f51b5">
+
+  <!-- No bots allowed in the configurator -->
+  <meta name="robots" content="noindex,nofollow">
+
+  <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Configure your perfect Rolls Royce">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Configure your perfect Rolls Royce">
+
+  <meta name="msapplication-TileColor" content="#3f51b5">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- Start of the head-fragment to be included in other pages, e.g. via ESI -->
+  <meta name="con-meta" content="head-snippet-start">
+
+  <!-- EU AI Act Art. 50 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "digitalSourceType": "https://schema.org/CompositeSyntheticDigitalSource"
+  }
+  </script>
+
+  <script>
+    /**
+     * Create a tag in the dom via document.write - this guarantees correct order of execution for script tags.
+     * @param {string} tagName - The name of the tag to be created.
+     * @param {object} attributes - Key value pairs of html attributes to be set.
+     */
+    function loadTag(tagName, attributes) {
+      let tag = `<${tagName}`;
+      Object.keys(attributes).forEach(value => {
+        if (value === 'disabled' && (!attributes[value] || attributes[value] === 'false')) {
+          return;
+        }
+        tag += ` ${value}="${attributes[value]}" `;
+      });
+      tag += `></${tagName}>`;
+      document.write(tag);
+    }
+
+    // Hard-code basePath for GitHub Pages demo
+    const basePath = '/rolls-royce-demo/configure.rolls-roycemotorcars.com';
+    const base = document.createElement("base");
+    // this is required for the correct functionality of the router path
+    base.href = `${basePath}/`;
+    document.head.appendChild(base);
+
+    window.__conGlobal = {
+      basePath,
+    };
+  </script>
+
+  <script>
+    loadTag('link', { rel: 'icon', href: `${window.__conGlobal.basePath}/assets/rr/images/favicon.ico` });
+  </script>
+  <!-- See https://goo.gl/OOhYW5 -->
+  <script>
+    loadTag('link', { rel: 'manifest', crossorigin: 'use-credentials', href: `${window.__conGlobal.basePath}/en_LU/manifest.json` });
+  </script>
+
+  <!-- Homescreen icons -->
+  <script>
+    loadTag('link', {
+      rel: 'apple-touch-icon',
+      sizes: '48x48',
+      href: `${window.__conGlobal.basePath}/assets/rr/images/manifest/icon-48x48.png`,
+    });
+  </script>
+  <script>
+    loadTag('link', {
+      rel: 'apple-touch-icon',
+      sizes: '72x72',
+      href: `${window.__conGlobal.basePath}/assets/rr/images/manifest/icon-72x72.png`,
+    });
+  </script>
+  <script>
+    loadTag('link', {
+      rel: 'apple-touch-icon',
+      sizes: '96x96',
+      href: `${window.__conGlobal.basePath}/assets/rr/images/manifest/icon-96x96.png`,
+    });
+  </script>
+  <script>
+    loadTag('link', {
+      rel: 'apple-touch-icon',
+      sizes: '144x144',
+      href: `${window.__conGlobal.basePath}/assets/rr/images/manifest/icon-144x144.png`,
+    });
+  </script>
+  <script>
+    loadTag('link', {
+      rel: 'apple-touch-icon',
+      sizes: '192x192',
+      href: `${window.__conGlobal.basePath}/assets/rr/images/manifest/icon-192x192.png`,
+    });
+  </script>
+  <!-- Tile icon for Windows 8 (144x144 + tile color) -->
+  <script>
+    loadTag('link', {
+      name: 'msapplication-TileImage',
+      href: `${window.__conGlobal.basePath}/assets/rr/images/manifest/icon-144x144.png`,
+    });
+  </script>
+
+  <!-- Theme overrides -->
+  <script>
+    loadTag('link', {
+      rel: 'stylesheet',
+      href: `${window.__conGlobal.basePath}/assets/rr/styles/theme.css`,
+    });
+  </script>
+
+  <!-- Print variants -->
+  <script>
+    loadTag('link', {
+      rel: 'stylesheet',
+      media: 'print',
+      href: `${window.__conGlobal.basePath}/assets/rr/styles/print.css`,
+    });
+  </script>
+    <!-- Print variants: orientation CSS for the print page -->
+    <script>
+      loadTag('link', {
+        rel: 'stylesheet',
+        media: 'print',
+        href: `${window.__conGlobal.basePath}/assets/default/print-landscape.css`,
+      });
+    </script>
+
+  <!-- Zoom overrides -->
+    <script>
+      loadTag('link', {
+        rel: 'stylesheet',
+        href: `${window.__conGlobal.basePath}/assets/rr/styles/overrides/zoom-out.css`,
+      });
+    </script>
+
+  <!-- End of the head-fragment to be included in other pages, e.g. via ESI -->
+  <meta name="con-meta" content="head-snippet-end">
+
+  <!-- Preloading scripts -->
+  <script>
+    loadTag('link', {
+      rel: 'preload',
+      href: `${window.__conGlobal.basePath}/en_LU/settings.20dcc4b3.json`,
+      as: 'fetch',
+      crossorigin: 'anonymous'
+    });
+    loadTag('link', {
+      rel: 'preload',
+      href: `${window.__conGlobal.basePath}/en_LU/locale.3f39b722.json`,
+      as: 'fetch',
+      crossorigin: 'anonymous'
+    });
+  </script>
+
+  <!-- Consent controller removed for demo -->
+
+  <!-- Preload & set up font families -->
+  <script>
+    document.write(`
+      <link rel="preload" href="${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifLight.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifRegular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    `);
+  </script>
+
+  <script>
+    document.write(`
+      <style>
+        :root {
+      --font-family-icons: FontDefinitionIcons;
+      --font-family-sans-serif-regular: FontDefinitionSansSerifRegular, Arial, Verdana, Tahoma, 'Trebuchet MS', -apple-system, sans-serif;
+      --font-family-sans-serif-regular-italic: FontDefinitionSansSerifRegularItalic, Arial, Verdana, Tahoma, 'Trebuchet MS', -apple-system, sans-serif;
+      --font-family-sans-serif-medium: FontDefinitionSansSerifMedium, -apple-system, sans-serif;
+      --font-family-sans-serif-medium-italic: FontDefinitionSansSerifMediumItalic, -apple-system, sans-serif;
+      --font-family-sans-serif-bold: FontDefinitionSansSerifBold, -apple-system, sans-serif;
+      --font-family-sans-serif-bold-italic: FontDefinitionSansSerifBoldItalic, -apple-system, sans-serif;
+      --font-family-sans-serif-extra-bold: FontDefinitionSansSerifExtraBold, -apple-system, sans-serif;
+      --font-family-sans-serif-extra-bold-italic: FontDefinitionSansSerifExtraBoldItalic, -apple-system, sans-serif;
+      --font-family-sans-serif-light: FontDefinitionSansSerifLight, -apple-system, sans-serif;
+      --font-family-sans-serif-light-italic: FontDefinitionSansSerifLightItalic, -apple-system, sans-serif;
+      --font-family-sans-serif-thin: FontDefinitionSansSerifThin, -apple-system, sans-serif;
+      --font-family-sans-serif-thin-italic: FontDefinitionSansSerifThinItalic, -apple-system, sans-serif;
+      --font-family-normal: Arial, Verdana, Tahoma, 'Trebuchet MS', Roboto, Noto, -apple-system, sans-serif;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionIcons';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionIcons.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifLight';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifLight.woff2') format('woff2');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifRegular';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifRegular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifBold';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifBold.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifRegularItalic';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifRegularItalic.woff2') format('woff2');
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifMedium';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifMedium.woff2') format('woff2');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifMediumItalic';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifMediumItalic.woff2') format('woff2');
+      font-weight: 500;
+      font-style: italic;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifBoldItalic';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifBoldItalic.woff2') format('woff2');
+      font-weight: 700;
+      font-style: italic;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifExtraBold';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifExtraBold.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifExtraBoldItalic';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifExtraBoldItalic.woff2') format('woff2');
+      font-weight: 700;
+      font-style: italic;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifLightItalic';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifLightItalic.woff2') format('woff2');
+      font-weight: 300;
+      font-style: italic;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifThin';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifThin.woff2') format('woff2');
+      font-weight: 100;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'FontDefinitionSansSerifThinItalic';
+      src: url('${window.__conGlobal.basePath}/assets/rr/fonts/FontDefinitionSansSerifThinItalic.woff2') format('woff2');
+      font-weight: 100;
+      font-style: italic;
+      font-display: swap;
+    }
+      </style>
+    `);
+  </script>
+
+  <!-- CSS global overwrites + spinner styling -->
+  <script>
+    loadTag('link', {
+      rel: 'stylesheet',
+      href: `${window.__conGlobal.basePath}/styles/global.css`,
+    });
+  </script>
+
+  <!-- ES6 support check -->
+  <script>
+    /**
+     * Checks if ES6 is supported.
+     * @return {boolean} Returns true if ES6 is supported.
+     */
+    function checkES6() {
+      if (typeof Symbol === 'undefined' || typeof fetch === 'undefined') {
+        return false;
+      }
+      try {
+        eval('class Foo{}');
+        eval('var bar = (x) => x+1');
+      } catch (e) {
+        return false;
+      }
+      return true;
+    }
+
+    function isBrowserUpdateRequired() {
+      const minBrowserVersionSetting = { Safari: 11, Edge: 81 };
+
+      const { userAgent } = navigator;
+      let browserName;
+      let fullVersion;
+      let verOffset;
+      if ((verOffset = userAgent.indexOf('Edge')) != -1) {
+        browserName = 'Edge';
+        fullVersion = userAgent.substring(verOffset + 5);
+      } else if ((verOffset = userAgent.indexOf('Chrome')) != -1) {
+        browserName = 'Chrome';
+        fullVersion = userAgent.substring(verOffset + 7);
+      } else if ((verOffset = userAgent.indexOf('Safari')) != -1) {
+        browserName = 'Safari';
+        fullVersion = userAgent.substring(verOffset + 7);
+        if ((verOffset = userAgent.indexOf('Version')) != -1) fullVersion = userAgent.substring(verOffset + 8);
+      } else if ((verOffset = userAgent.indexOf('Firefox')) != -1) {
+        browserName = 'Firefox';
+        fullVersion = userAgent.substring(verOffset + 8);
+      }
+
+      if (browserName && fullVersion && minBrowserVersionSetting[browserName] &&
+        fullVersion < (`${minBrowserVersionSetting[browserName]}`)) {
+        return true;
+      }
+      return false;
+    }
+
+    if (!checkES6() || isBrowserUpdateRequired()) {
+      window.location.href = 'error.html';
+    }
+  </script>
+
+  <base href="/">
+
+  <!-- Data 360 Web SDK -->
+  <script src="https://cdn.c360a.salesforce.com/beacon/c360a/f18ae63d-f94f-4a66-8c6e-bfc7a6cf4001/scripts/c360a.min.js"></script>
+</head>
+
+<body>
+  <div id="initialLoadingLogoContainer">
+    <div class="initial-loading-image loading-image-rr"></div>
+    <noscript>
+      <p class="no-js-message">No JavaScript &#9785;</p>
+    </noscript>
+  </div>
+
+  <!-- SPA redirect handler: reads path stored by 404.html -->
+  <script>
+    (function(){
+      var redirect = sessionStorage.getItem('spa-redirect');
+      if (redirect) {
+        sessionStorage.removeItem('spa-redirect');
+        // Push the original URL into history so the SPA router picks it up
+        if (window.history && history.replaceState) {
+          history.replaceState(null, '', redirect);
+        }
+      }
+    })();
+  </script>
+
+  <!-- Fetch interceptor: append .json extension for API calls served as static files -->
+  <script>
+    (function() {
+      var _originalFetch = window.fetch;
+      window.fetch = function(url, opts) {
+        var urlStr = (typeof url === 'string') ? url : (url && url.url ? url.url : '');
+
+        // Block external tracking/analytics domains
+        var blocked = ['tron.bmwgroup.com', 'assets.adobedtm.com', 'bmw.com/epaas', 'bmw.com/p15r',
+                       'evergage.com', 'go-mpulse.net', 'akamaihd.net', 'consentcontroller'];
+        for (var i = 0; i < blocked.length; i++) {
+          if (urlStr.indexOf(blocked[i]) !== -1) {
+            return Promise.resolve(new Response('{}', { status: 200, headers: { 'Content-Type': 'application/json' } }));
+          }
+        }
+
+        // Rewrite api.visualiser / visualiser URLs to local paths
+        if (urlStr.indexOf('api.visualiser.rolls-roycemotorcars.com') !== -1) {
+          var apiPath = urlStr.replace(/https?:\/\/api\.visualiser\.rolls-roycemotorcars\.com/, '/rolls-royce-demo/configure.rolls-roycemotorcars.com');
+          // Append .json if no extension
+          if (apiPath.match(/\/[^.\/]+$/) || apiPath.match(/\/$/)) {
+            apiPath = apiPath.replace(/\/$/, '') + '.json';
+          }
+          return _originalFetch.call(window, apiPath, opts);
+        }
+
+        if (urlStr.indexOf('visualiser.rolls-roycemotorcars.com') !== -1) {
+          var visPath = urlStr.replace(/https?:\/\/visualiser\.rolls-roycemotorcars\.com/, '/rolls-royce-demo/configure.rolls-roycemotorcars.com');
+          if (visPath.match(/\/[^.\/]+$/) || visPath.match(/\/$/)) {
+            visPath = visPath.replace(/\/$/, '') + '.json';
+          }
+          return _originalFetch.call(window, visPath, opts);
+        }
+
+        // For local API-style paths without extensions, try appending .json
+        if (urlStr.indexOf('/rolls-royce-demo/') !== -1 && urlStr.match(/\/[^.\/]+$/) &&
+            !urlStr.match(/\.(js|css|json|html|png|jpg|svg|woff2|ico)$/)) {
+          var jsonUrl = urlStr + '.json';
+          return _originalFetch.call(window, jsonUrl, opts).then(function(resp) {
+            if (resp.ok) return resp;
+            return _originalFetch.call(window, url, opts);
+          }).catch(function() {
+            return _originalFetch.call(window, url, opts);
+          });
+        }
+
+        return _originalFetch.call(window, url, opts);
+      };
+    })();
+  </script>
+
+  <con-app endpoint="en_LU" theme="rr"
+    timestamp="1787754279" release="release_4.14.1_0"></con-app>
+
+
+  <!-- Load settings and locale from separate cacheable JSON files -->
+  <script>
+    window.__conDataReady = Promise.all([
+      fetch(`${window.__conGlobal.basePath}/en_LU/settings.20dcc4b3.json`, { credentials: 'same-origin' }).then(r => r.json()),
+      fetch(`${window.__conGlobal.basePath}/en_LU/locale.3f39b722.json`, { credentials: 'same-origin' }).then(r => r.json())
+    ]);
+  </script>
+
+  <!-- Suppress error caused by defining a custom element multiple times, to a mere warning -->
+  <script>
+    const _customElementsDefine = window.customElements.define;
+    window.customElements.define = (name, cl, conf) => {
+      if (!customElements.get(name)) {
+        _customElementsDefine.call(window.customElements, name, cl, conf);
+      }
+      else {
+        console.warn(`${name} has been defined twice`);
+      }
+    };
+  </script>
+
+  <!-- Adobe/tracking pageBottom removed for demo -->
+
+  <script type="module" crossorigin="use-credentials">
+    const [settings, locale] = await window.__conDataReady;
+    const conApp = document.getElementsByTagName('con-app')[0];
+    conApp.inputSettings = settings;
+    conApp.inputLocalization = locale;
+    import(`${/* @vite-ignore */window.__conGlobal.basePath}/js/index.1787754279.js`)
+      .catch(function () {
+        // Workaround for iOS
+        import(/* @vite-ignore */window.__conGlobal.basePath + '/' + '/js/index.1787754279.js');
+      });
+  </script>
+
+  <!-- Data 360 Web SDK Sitemap -->
+  <script src="/rolls-royce-demo/rr-sitemap.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Redirecting...</title>
+<script>
+  // SPA routing for GitHub Pages
+  // GitHub Pages serves this 404.html for any unknown path under this directory.
+  // We store the full path and redirect to the SPA shell (index.html) which
+  // reads it back and lets the client-side router handle it.
+  sessionStorage.setItem('spa-redirect', location.pathname + location.search + location.hash);
+  location.replace('/rolls-royce-demo/configure.rolls-roycemotorcars.com/');
+</script>
+</head>
+<body>
+  <p>Redirecting to configurator...</p>
+</body>
+</html>
